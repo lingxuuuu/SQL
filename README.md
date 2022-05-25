@@ -25,4 +25,11 @@
 
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/36904516/170150130-ba9b39ac-815c-4b55-9539-2c638462d10e.png">
 
+```string_split()```
+string_split is always used with cross apply, example:
 
+```
+select first_name, last_name, VALUE phone
+from sales.contacts
+CROSS APPLY STRING_SPLIT(phones, ',')
+```
