@@ -62,3 +62,29 @@ getdate() -> 2022-05-25 18:53:53.683
 
 <img width="421" alt="image" src="https://user-images.githubusercontent.com/36904516/170336430-e1c5b782-6448-4e25-a1bd-ca9cc5f861b6.png">
 
+7. SQL Query | How to check for Alphanumeric values | Like | Wildcards
+
+#### wildcard
+
+% 0 or more char \
+_ 1 char \
+[] single char in the brackets -> h[oa]t \
+^ char not in the brackets h[^oa]t \
+- range \
+
+8. SQL Query | Remove leading and trailing zeroes from a decimal
+
+<img width="386" alt="image" src="https://user-images.githubusercontent.com/36904516/170345121-ff6b4570-f67e-4d73-8b28-3e3fb2bebde8.png">
+
+9. SQL Query | How to Extract Numbers and Alphabets from an alphanumeric string | Translate function
+
+#### TRANSLATE(STRING, CHAR, TRANSLATIONS)
+
+** TRANSLATE() function will return an error if chars and translations have different lengths.**
+
+```select translate('I am Ling', 'Ling', 'LingLing')``` \
+Output -> 'I am LingLing'
+
+<img width="338" alt="image" src="https://user-images.githubusercontent.com/36904516/170346555-0dac1931-cbf1-47a6-9ed5-aaf9f5d5cbb4.png">
+
+
