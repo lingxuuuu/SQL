@@ -44,15 +44,21 @@ CROSS APPLY STRING_SPLIT(phones, ',')
 
 #### DATENAME
 ```select datename(dw, "2017/08/25") as dateNameOfTheWeek```
+
 output: Friday
 
 #### DATEDIFF (interval, date1, date2)
 ```select datediff(year, "2017/08/25", "2019/08/25") as diffInYear```
 
 6. SQL Tutorial | Date Functions | Find Age from Birth Date
+(we are using a case when here because to get the exact age)
+
 #### GETDATE ()
 
 getdate() -> 2022-05-25 18:53:53.683
 
-#### DATEADD() 
+#### DATEADD(inerval, number, date) 
 ``` select DATEADD(YEAR, 1, GETDATE()) AS TodayAdd1Year```
+
+<img width="421" alt="image" src="https://user-images.githubusercontent.com/36904516/170336430-e1c5b782-6448-4e25-a1bd-ca9cc5f861b6.png">
+
