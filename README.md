@@ -70,7 +70,7 @@ getdate() -> 2022-05-25 18:53:53.683
 _ 1 char \
 [] single char in the brackets -> h[oa]t \
 ^ char not in the brackets h[^oa]t \
-- range \
+'-' range \
 
 8. SQL Query | Remove leading and trailing zeroes from a decimal
 
@@ -86,5 +86,16 @@ _ 1 char \
 Output -> 'I am LingLing'
 
 <img width="338" alt="image" src="https://user-images.githubusercontent.com/36904516/170346555-0dac1931-cbf1-47a6-9ed5-aaf9f5d5cbb4.png">
+
+<img width="742" alt="image" src="https://user-images.githubusercontent.com/36904516/170347625-fee539a2-a4ad-453e-8573-e9dcd98ed558.png">
+
+10. SQL Query | How to calculate Running Totals and Cumulative Sum ?
+
+sum(salary) over( order by firstname, lastname) -> ** whatever we order by need to be unique to make the cummulative sum count for it, if we only order by firstname, when we have duplicate firstnames, the salary will be ignored. **
+
+11. SQL Query | How to calculate YTD and MTD totals | Window Functions
+
+Adding a ```rows between unbonded proceding and current row``` fixed the issie that highted in yellow below.
+<img width="419" alt="image" src="https://user-images.githubusercontent.com/36904516/170352156-f585703f-ee1a-4719-9b01-a1bb83bb3c5e.png">
 
 
