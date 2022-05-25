@@ -33,3 +33,10 @@ select first_name, last_name, VALUE phone
 from sales.contacts
 CROSS APPLY STRING_SPLIT(phones, ',')
 ```
+
+<img width="407" alt="image" src="https://user-images.githubusercontent.com/36904516/170156158-8ea2b4ca-9d72-4735-9e13-4402e6988c2e.png">
+
+4. SQL Query | Replace special characters | Control Characters | REPLACE function
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/36904516/170165562-6d652c91-9bf5-4fea-9dfe-a7dc5e994949.png">
+
