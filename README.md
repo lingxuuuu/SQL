@@ -43,13 +43,16 @@ CROSS APPLY STRING_SPLIT(phones, ',')
 5. SQL Query | Calculate number of weekdays between two dates | Exclude Weekends | DateDiff | DateName
 
 #### DATENAME
-select datename(dw, "2017/08/25") as dateNameOfTheWeek
+```select datename(dw, "2017/08/25") as dateNameOfTheWeek```
 output: Friday
 
 #### DATEDIFF (interval, date1, date2)
-select datediff(year, "2017/08/25", "2019/08/25") as diffInYear
+```select datediff(year, "2017/08/25", "2019/08/25") as diffInYear```
 
 6. SQL Tutorial | Date Functions | Find Age from Birth Date
 #### GETDATE ()
 
 getdate() -> 2022-05-25 18:53:53.683
+
+#### DATEADD() 
+``` select DATEADD(YEAR, 1, GETDATE()) AS TodayAdd1Year```
