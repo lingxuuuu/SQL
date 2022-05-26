@@ -124,3 +124,8 @@ Adding a ```rows between unbonded proceding and current row``` fixed the issie t
 
 ```select stuff('SQL Tutorial', 1, 3, 'HTML') -> 'HTML tutorial'```
 
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/36904516/170404860-4b473025-1185-40bd-b648-8d45082a21cd.png">
+
+16. SQL Query Interview Questions | How to capitalize first letter of a string
+
+<img width="670" alt="image" src="https://user-images.githubusercontent.com/36904516/170406216-bc1d59cd-e41b-4b87-a31c-1466d7b28683.png">
