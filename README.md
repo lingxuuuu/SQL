@@ -98,4 +98,29 @@ sum(salary) over( order by firstname, lastname) -> ** whatever we order by need 
 Adding a ```rows between unbonded proceding and current row``` fixed the issie that highted in yellow below.
 <img width="419" alt="image" src="https://user-images.githubusercontent.com/36904516/170352156-f585703f-ee1a-4719-9b01-a1bb83bb3c5e.png">
 
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/36904516/170353064-3428103a-d760-4da0-a802-89bd757fe282.png">
+
+12. SQL- Find employees with salary less than Dept average but more than average of any other Dept | ANY
+
+<img width="712" alt="image" src="https://user-images.githubusercontent.com/36904516/170354746-cbfa839e-1a32-4690-816c-d1207e949272.png">
+
+13. SQL Query | How to generate a two digit alphabetic sequence | Cycle through alphabets
+
+<img width="465" alt="image" src="https://user-images.githubusercontent.com/36904516/170384449-495f46d6-546a-4791-a000-7e1bdabb43b2.png">
+
+14. SQL Query | Convert data from columns into Rows | Unpivot
+
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/36904516/170385063-a65644df-3c41-456f-8b96-80976a547688.png">
+
+15. SQL Query | How to convert data from rows into comma separated single column | FOR XML PATH | STUFF
+
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/36904516/170403733-602f913e-64cf-4f64-93e1-583df99c8798.png">
+
+<img width="637" alt="image" src="https://user-images.githubusercontent.com/36904516/170403969-7c76ab39-039c-421d-9758-46b060480f40.png">
+
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/36904516/170404122-cedb2f63-dbaa-433f-89ee-5e80207142a8.png">
+
+#### stuff(string, start, length, new_string)
+
+```select stuff('SQL Tutorial', 1, 3, 'HTML') -> 'HTML tutorial'```
 
