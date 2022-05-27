@@ -1,5 +1,7 @@
 # SQL
 
+#### sql is not case sensitive (sql = SQL)
+
 #### SQL Query Interview Questions
 
 1. SQL Query | Custom Sorting | Order by Month in an Year
@@ -129,3 +131,43 @@ Adding a ```rows between unbonded proceding and current row``` fixed the issie t
 16. SQL Query Interview Questions | How to capitalize first letter of a string
 
 <img width="670" alt="image" src="https://user-images.githubusercontent.com/36904516/170406216-bc1d59cd-e41b-4b87-a31c-1466d7b28683.png">
+
+17. SQL Query | Count the occurrence of a character in a string
+
+<img width="741" alt="image" src="https://user-images.githubusercontent.com/36904516/170622311-c18ffdb1-800e-4f92-b16a-87a0e1482702.png">
+
+18. SQL Interview Query | Find names that start/end with 'a' | More examples | Like | Pattern Matching
+
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/36904516/170623810-cb6ab2aa-5f7c-4436-8073-1e961efffab1.png">
+
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/36904516/170623965-f7bd8dbe-7455-4cf6-8969-16c74d155d56.png">
+
+19. SQL Interview Question | How to find departments having only male / female employees?
+
+<img width="342" alt="image" src="https://user-images.githubusercontent.com/36904516/170624570-414b8846-95c8-485c-bae9-ad714f7e9d25.png">
+
+Solution 2: \
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/36904516/170625337-785965f8-e839-4011-829b-051cd467893d.png">
+
+20. SQL Interview Question | How to find strings with lower case characters | Case Insensitive | Collate \
+SQL is not case sensitive, ```COLLATE Latin1_General_CS_AS``` will make SQL case sensitive
+
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/36904516/170626123-2871c61d-67c9-4e16-a0bb-f481fd19dccb.png">
+
+21. SQL Query | How to find Maximum of multiple columns | Values
+
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/36904516/170792478-915dab67-fa3c-44ca-adf0-c8d38991e385.png">
+
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/36904516/170792576-faf6b44e-ca09-43ff-95b8-d3cefe3996cc.png">
+
+<img width="761" alt="image" src="https://user-images.githubusercontent.com/36904516/170792655-ade04410-afe9-47d2-b1d3-3de3b6079e0f.png">
+
+22. SQL tutorial | How to find n consecutive date records | Sales for at least n consecutive days.
+
+<img width="726" alt="image" src="https://user-images.githubusercontent.com/36904516/170794223-9652419d-1fbe-4290-9ece-9d3b3024cdd4.png">
+
+23. SQL Query Interview Question - Scenario - No sales for n consecutive days | Identify date gaps
+
+<img width="733" alt="image" src="https://user-images.githubusercontent.com/36904516/170798939-0fa87c05-b15c-4819-9450-0ef89918e057.png">
+
+
