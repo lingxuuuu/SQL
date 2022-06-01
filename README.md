@@ -170,4 +170,38 @@ SQL is not case sensitive, ```COLLATE Latin1_General_CS_AS``` will make SQL case
 
 <img width="733" alt="image" src="https://user-images.githubusercontent.com/36904516/170798939-0fa87c05-b15c-4819-9450-0ef89918e057.png">
 
+24. SQL Query | Compare monthly sales with previous month, same month previous year, first month of year
 
+```SELECT YEAR('2017/08/25') AS Year;```
+
+```year(); month(); day()```
+
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/36904516/170839640-4b0760d6-c065-4d23-ac6e-b224980e5ac2.png">
+
+<img width="723" alt="image" src="https://user-images.githubusercontent.com/36904516/170839718-c8acb230-3365-450b-b6c3-9e8e3d01ad04.png">
+
+25. SQL Interview Questions | How to find number of emails from the same domain | CharIndex
+
+#### CharIndex() CHARINDEX(substring, string, start)
+
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/36904516/170839830-2e76e49d-2985-4b6b-856e-220e96f02c28.png">
+
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/36904516/170840932-5b4eb2ea-0dde-4f28-bc74-e53a598a7421.png">
+
+26. SQL Query to find a leap year | 2 methods | SQL Interview Questions
+
+#### isdate() checks an expression and return 1 if it is a valid date, otherwise 0
+
+<img width="436" alt="image" src="https://user-images.githubusercontent.com/36904516/171298295-d074162b-c9f6-4d7e-99af-db7e36c92e86.png">
+
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/36904516/171298481-50862021-1bd4-489b-a32c-ec3fe5d6e156.png">
+
+27. What is the difference between Translate and Replace
+
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/36904516/171303375-f8014a10-c149-4439-b379-805546b59a10.png">
+
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/36904516/171303693-8603399b-02a8-4fac-8d78-7ce7f2919a8b.png">
+
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/36904516/171303784-5a5c3625-46b8-41f6-a1b8-977c356bed08.png">
+
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/36904516/171303911-5803a14c-74d9-4cf7-bf93-891aa247a43e.png">
